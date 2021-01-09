@@ -15,6 +15,6 @@ public class Controler : MonoBehaviour
 
     private void FixedUpdate()
     {
-        player.Move(Input.GetAxis("Vertical"));
+        player.Move(Input.GetAxisRaw("Vertical"));
     }
 }
