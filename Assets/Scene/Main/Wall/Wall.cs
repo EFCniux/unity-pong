@@ -7,6 +7,7 @@ public class Wall : MonoBehaviour
 {
     private void Awake()
     {
+        // Calc necesary scale to fit main camera
         var positionXLeft = Camera.main.ViewportToWorldPoint(new Vector3(0, 0, 0)).x;
         var positionXRight = Camera.main.ViewportToWorldPoint(new Vector3(1, 0, 0)).x;
 
