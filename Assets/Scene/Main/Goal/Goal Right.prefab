@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: isRight
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -1503282017948951275, guid: 457ad9aaf9571ef4fa233f5f77d285fb, type: 3}
+      propertyPath: isRight
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4466949217175687353, guid: 457ad9aaf9571ef4fa233f5f77d285fb, type: 3}
       propertyPath: m_Name
       value: Goal Right
